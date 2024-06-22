@@ -2,7 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/_navbar/page";
 import Hero from "./components/_hero/page";
 import Benefits from "./components/_benefits/page";
-import { Js } from "grommet-icons";
+import Pricing from "./components/_pricing/page";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
         Video
       </div>
       <Benefits />
+      <Pricing />
     </main>
   );
 }
