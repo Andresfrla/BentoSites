@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/_navbar/page";
 import Hero from "./components/_hero/page";
 import Benefits from "./components/_benefits/page";
+import { Js } from "grommet-icons";
 
 export default function Home() {
   return (
