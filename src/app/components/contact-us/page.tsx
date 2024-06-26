@@ -86,7 +86,7 @@ const ContactForm = () => {
                 <span className="ml-2">Sí</span>
               </label>
               <label className="cursor-pointer">
-                <input type="radio" name="support" value="no" className="radio radio-primary" />
+                <input type="radio" name="support" value="no" className="radio radio-primary" defaultChecked/>
                 <span className="ml-2">No</span>
               </label>
             </div>
