@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navbar-start">
         {/* Logo con enlace */}
         <a href="/" className="flex items-center">
-          <Image src="/logo.svg" alt="BentoSites Logo" width={50} height={50} className='xl:size-[110px] ml-10' />
+          <Image src="/logo.svg" alt="BentoSites Logo" width={150} height={50} className='xl:w-[200px] ml-10 mt-3 mb-3' />
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="#contact" className="btn text-xl">Contáctanos</a>
+        <a href="#contact" className="btn text-xl text-info">Contáctanos</a>
       </div>
     </div>
   );
