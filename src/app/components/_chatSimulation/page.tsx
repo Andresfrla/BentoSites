@@ -16,7 +16,7 @@ const ChatSimulation = () => {
           BentoSites
           <time className="text-xs opacity-50 ml-2">09:00</time>
         </div>
-        <div className="chat-bubble bg-warning">Hola, ¿en qué podemos ayudarte hoy?</div>
+        <div className="chat-bubble bg-warning text-gray-800">Hola, ¿en qué podemos ayudarte hoy?</div>
         <div className="chat-footer opacity-50">Enviado</div>
       </div>
       {/* Chat Bubble - Cliente */}
@@ -32,7 +32,7 @@ const ChatSimulation = () => {
             Maria Lopez
           <time className="text-xs opacity-50 ml-2">09:01</time>
         </div>
-        <div className="chat-bubble bg-accent">Estoy interesado en desarrollar una página web para mi negocio.</div>
+        <div className="chat-bubble bg-accent text-gray-800">Estoy interesada en desarrollar una página web para mi negocio.</div>
         <div className="chat-footer opacity-50">Visto a las 09:01</div>
       </div>
       {/* Chat Bubble - Empresa */}
@@ -48,7 +48,7 @@ const ChatSimulation = () => {
           BentoSites
           <time className="text-xs opacity-50 ml-2">09:02</time>
         </div>
-        <div className="chat-bubble bg-warning">¡Perfecto! ¿Puedes darnos más detalles sobre el tipo de página que necesitas?</div>
+        <div className="chat-bubble bg-warning text-gray-800">¡Perfecto! ¿Puedes darnos más detalles sobre el tipo de página que necesitas?</div>
         <div className="chat-footer opacity-50">Enviado</div>
       </div>
       {/* Chat Bubble - Cliente */}
@@ -64,7 +64,7 @@ const ChatSimulation = () => {
           Maria Lopez
           <time className="text-xs opacity-50 ml-2">09:03</time>
         </div>
-        <div className="chat-bubble bg-accent">Claro, necesito una página para mostrar mis productos y servicios, y que tenga integración con redes sociales.</div>
+        <div className="chat-bubble bg-accent text-gray-800">Claro, necesito una página para mostrar mis productos y servicios, y que tenga integración con redes sociales.</div>
         <div className="chat-footer opacity-50">Visto a las 09:03</div>
       </div>
       {/* Chat Bubble - Empresa */}
@@ -80,7 +80,7 @@ const ChatSimulation = () => {
           BentoSites
           <time className="text-xs opacity-50 ml-2">09:04</time>
         </div>
-        <div className="chat-bubble bg-warning">¡Excelente! ¿Tienes alguna idea del presupuesto y plazo para este proyecto?</div>
+        <div className="chat-bubble bg-warning text-gray-800">¡Excelente! ¿Tienes alguna idea del presupuesto y plazo para este proyecto?</div>
         <div className="chat-footer opacity-50">Enviado</div>
       </div>
       {/* Chat Bubble - Cliente */}
@@ -96,7 +96,7 @@ const ChatSimulation = () => {
             Maria Lopez
           <time className="text-xs opacity-50 ml-2">09:05</time>
         </div>
-        <div className="chat-bubble bg-accent">Tengo un presupuesto de alrededor de $3000 y me gustaría lanzarla en dos meses.</div>
+        <div className="chat-bubble bg-accent text-gray-800">Tengo un presupuesto de alrededor de $3000 y me gustaría lanzarla en dos meses.</div>
         <div className="chat-footer opacity-50">Visto a las 09:05</div>
       </div>
     </div>

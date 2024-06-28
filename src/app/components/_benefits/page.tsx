@@ -18,7 +18,7 @@ const Benefits: React.FC = () => {
     <div className="mockup-window border bg-base-300 m-10">
       <div className="flex justify-center bg-base-200">
         <div className="max-w-4xl text-center">
-          <h2 className="text-4xl font-bold mb-8 mt-8">Por qué elegirnos</h2>
+          <h2 className="text-4xl font-bold mb-8 mt-8 text-gray-800">Por qué elegirnos</h2>
           <div className="flex flex-wrap justify-center items-start">
             {/* Primera columna con fondo primary */}
             <div className="bg-primary text-base-100 font-semibold p-6 rounded-lg shadow-lg w-full md:w-1/2 mb-5 md:mb-0">

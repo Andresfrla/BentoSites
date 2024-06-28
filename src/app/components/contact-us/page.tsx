@@ -83,11 +83,11 @@ const ContactForm = () => {
             <div className="flex items-center space-x-4">
               <label className="cursor-pointer">
                 <input type="radio" name="support" value="yes" className="radio radio-primary" />
-                <span className="ml-2">Sí</span>
+                <span className="ml-2 text-gray-800">Sí</span>
               </label>
               <label className="cursor-pointer">
                 <input type="radio" name="support" value="no" className="radio radio-primary" defaultChecked/>
-                <span className="ml-2">No</span>
+                <span className="ml-2 text-gray-800">No</span>
               </label>
             </div>
           </div>

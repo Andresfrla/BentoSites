@@ -13,21 +13,24 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        black: "#000000", // Texto en negro
+      },
     },
   },
   daisyui: {
     themes: [
       {
         mytheme: {
-      "primary": "#6699CC",   
-      "secondary": "#95B8D1",  
-      "accent": "#E8DDB5",  
-      "neutral": "#EDAFB8",
-      "base-100": "#333333",
-      "info": "#BFCBC3",
-      "success": "#33CA7F",        
-      "warning": "#FFF275",        
-      "error": "#FF3C38",
+          "primary": "#7B61FF",  // Púrpura vibrante
+          "secondary": "#FF7E6B",  // Coral suave
+          "accent": "#6BCB77",  // Verde esmeralda
+          "neutral": "#282C34",  // Gris carbón
+          "base-100": "#F9FAFB",  // Blanco ahumado
+          "info": "#3ABFF8",  // Azul cielo
+          "success": "#3FB56B",  // Verde bosque
+          "warning": "#FFA41B",  // Naranja dorado
+          "error": "#FF4A4A",  // Rojo sandía
         },
       },
     ],
@@ -35,3 +38,4 @@ const config: Config = {
   plugins: [require('daisyui')],
 };
 export default config;
+
